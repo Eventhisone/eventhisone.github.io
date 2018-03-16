@@ -1,1 +1,88 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio w/ css grid</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://use.fontawesome.com/releases/v5.0.2/css/all.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container">
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="about" id="about">
+      <p>I am a web devloper with experience working on frontend solutions. Currently learning about design principles and human centered design. I have experience working on software and with object oriented design. Programming everyday, working towards being a fullstack developer. Goal: making things that last, that are worth using and reusing.</p>
+      <p>Frontend - Human Centered Design - Software</p>
+  </div>
+  <div class="portfolio" id="portfolio">
+    <div class="project">
+      <img src="https://picsum.photos/500/500" alt="filler image from picsum.photos"> 
+      <span><strong>Tunecomposer</strong></span>
+      <p>a simple Java/JavaFXML MIDI player application, with play, pause,undo, and editing functionality.</p>
+      </div>
+    <div class="project">
+      <img src="https://picsum.photos/500/500" alt="filler image from picsum.photos" >
+      <span><strong>Flowriter</strong></span>
+      <p>a python application that markov models to train and generate sentences based on Bob Ross quotes, artist lyrics from Spotify, writing prompts, writing plot points, and Emmanuel Kant quotes.
+      </p>
+    </div>
+  </div>
+  <div class="notice">
+    <p>No spam please.</p>
+    <p>Open to collabloration. Always looking for oppurtunities to learn and make cool things.</p>
+</div>
+  <div class="contact" id="contact">
+    <fieldset>
+      <legend> Contact me</legend>
+    <form action="#" id="contact-form" method="post">
+      <p>
+        <label for="name">Name: </label><br />
+        <input type="text" id="name" name="name" />
+      </p>
+      <p>
+        <label for="email">Email: </label><br />
+        <input type="text" id="email" name="email" />
+      </p>
+      <p>
+        <label for="message">Message: </label><br />
+        <textarea type="text" id="message" name="message" /></textarea>
+      </p>
+      <p>
+        <button type="button">submit</button>
+      </p>
+      </fieldset>
+   </form>
+  </div>
+  <div class="social">
+    <p>Follow me on social media<p>
+    <a href="https://github.com/Eventhisone" target="_blank">
+        <i class="fab fa-github fa-3x"></i>
+      </a>
+    </div>
+  <div class="footer">
+    <p>&copy;Zach Turner 2017. All rights revered.<p>
+  </div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
